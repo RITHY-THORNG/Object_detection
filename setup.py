@@ -21,8 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
               'odom_sub_node = odom_pkg.odom_sub_node:main', 
-              'image_subscriber = odom_pkg.image_subscriber:main',
-              'object_detection_node= odom_pkg.object_detection_node:main',
+              'obj_detect_node= odom_pkg.obj_detect_node:main',
         ],
     },
 )
